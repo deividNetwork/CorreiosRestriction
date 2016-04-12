@@ -1,0 +1,41 @@
+#metodos a {
+    position: relative;
+    display: block;
+    transition: all 0.1s linear 0s;
+}
+
+#metodos a.red {
+    color: #e74c3c;
+}
+
+#metodos a.green {
+    color: #2ecc71;
+}
+
+#metodos a .msg.active {
+    opacity: 1;
+}
+
+#metodos a .msg {
+    background: linear-gradient(#FEB55E, #F6822C);
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    padding: 10px 15px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.1s linear 0s;
+    opacity: 0;
+    z-index: 100;
+}
+
+#metodos a .msg:after {
+    width: 0;
+    height: 0;
+    content: "";
+    border: 6px solid transparent;
+    border-bottom-color: #FEB55E;
+    position: absolute;
+    top: -12px;
+    left: 30px;
+}

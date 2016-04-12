@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<layout>
+    <adminhtml_sales_order_view>
+        <reference name="head">
+            <action method="addJs">
+                <script>deivid_network/correios_restriction/jquery/jquery-2.2.0.min.js</script>
+            </action>
+            <action method="addJs">
+                <script>deivid_network/correios_restriction/jquery/noconflict.js</script>
+            </action>
+            <action method="addJs">
+                <script>deivid_network/correios_restriction/adminhtml_sales_order_view/main.js</script>
+            </action>
+            <action method="addCss">
+                <script>deivid_network/correios_restriction/adminhtml_sales_order_view/main.css</script>
+            </action>
+        </reference>
+    </adminhtml_sales_order_view>
+</layout>

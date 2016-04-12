@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DeividNetwork_CorreiosRestriction>
+            <version>
+                1.0
+            </version>
+        </DeividNetwork_CorreiosRestriction>
+    </modules>
+    <frontend>
+        <routers>
+            <deivid_network_correios_restriction>
+                <use>standard</use>
+                <args>
+                    <module>DeividNetwork_CorreiosRestriction</module>
+                    <frontName>correios-restriction</frontName>
+                </args>
+            </deivid_network_correios_restriction>
+        </routers>
+    </frontend>
+    <adminhtml>
+        <layout>
+            <updates>
+                <deivid_network_correios_restriction>
+                    <file>deivid_network_correios_restriction.xml</file>
+                </deivid_network_correios_restriction>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

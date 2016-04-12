@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <DeividNetwork_CorreiosRestriction>
+            <active>true</active>
+            <codePool>local</codePool>
+        </DeividNetwork_CorreiosRestriction>
+    </modules>
+</config>
